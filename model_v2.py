@@ -30,7 +30,7 @@ GEORGE_RUSSELL_NUMBER = 63
 X_train_df, X_test_df, y_train_df, y_test_df = train_test_split(X, y, test_size=0.2, random_state=GEORGE_RUSSELL_NUMBER)
 
 # defining categorical and numerical variables
-categories = ["DevType", "Industry", "RemoteWork"]
+categories = ["DevType", "Industry", "RemoteWork", "Country"]
 numerical_cols = X.drop(columns=categories).columns # I used 'X' instead of 'df' because 'df' still includes 'annual_salayr_usd'
 
 # imputing NaN values (only for numerical columns)
