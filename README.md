@@ -13,7 +13,15 @@ Findings can be viewed [here](https://northeastern-my.sharepoint.com/:p:/g/perso
 ## My understanding of models I used
 
 ### Multiple Regression
+Basically just finding the equation resulting in a line that minimizes total squared error accross all 3800 trainiing rows
+
+I however, didn't use standard Multiple Regression. I used Ridge, which basically means the model accepts slightly worse training fit in exchange for slightly smaller coefficients. This is important when dealing with salaries, where there can be shockingly high salaries that could screw up predictions for everything else. The other thing I did to account for this was taking the log of the training data to quantify error in percentage instead of dollar value. Then, I took the inverse log on my final predictions to convert back to real salary
+
 ### Histogram Based Gradient Boosting Regressor
+
+Standard gradient boosting is a long line of guessuers, each one fixing the leftover mistakes of the one before.
+When you make it Histogram based, you split all numerical values into 255 buckets and do some wizardy to make it happen faster
+
 
 ## Changes I made to the data
 

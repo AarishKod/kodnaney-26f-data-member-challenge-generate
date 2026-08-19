@@ -56,13 +56,19 @@ median_pred = np.full(len(y_test_df), y_train_df.median())
 report("baseline (train median)", y_test_df, median_pred)
 
 # 2. multiple regression (ridge)
-scaler = StandardScaler()
-X_train_s = scaler.fit_transform(X_train)
-X_test_s = scaler.transform(X_test)
 
-ridge = Ridge(alpha=1.0)
-ridge.fit(X_train_s, y_train_df)
-prediction = ridge.predict(X_test_s)
+# part 1 - rescaling each column to mean 0 and sd 1. This places every column on the same scale, regardless of oroginal units
+scaler = StandardScaler()
+X_train_s = scaler.fit_transform(X_train) # computes mean and std from training data, applies them
+X_test_s = scaler.transform(X_test) # applies stored train values from fit_transform
+
+ridge = Ridge(alpha=1.0) # Ridge penalizes higher coefficients. This is something wise to do when predicting something with a long tail of outliers
+# alpha=1.0 means mild penalty for high coefficients
+ridge.fit(X_train_s, np.log(y_train_df)) # fitting to the actual ridge model
+# I used log because without it, the model would treaat predicting 500k for 520k and 20k for 40k as the same mistake
+# In reality, in the 20k case, we're off by 50%, and in the 500k case, we're off by 4%. Withougt logs, the model treats both of 
+# those as the same error. With the logs, we care about percentages instead of dollars, which is why I use log
+prediction = np.exp(ridge.predict(X_test_s)) # utilizing e^x to convert back into salaries
 
 report("ridge", y_test_df, prediction)
 
