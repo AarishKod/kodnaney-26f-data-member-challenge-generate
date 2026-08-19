@@ -1,0 +1,918 @@
+Country,DevType,WorkExp,actual,pred_ridge,pred_gbm,error
+FRA,"Developer, full-stack",24.0,40605.0,56876.0,61447.0,20842.0
+CAN,"Developer, full-stack",5.0,65663.0,70705.0,63661.0,-2002.0
+AUS,"Senior executive (C-suite, VP, etc.)",22.0,162523.0,152756.0,140727.0,-21796.0
+ZAF,"Developer, full-stack",9.0,37210.0,26364.0,24976.0,-12234.0
+HUN,"Developer, full-stack",8.0,50691.0,35508.0,49370.0,-1321.0
+DEU,"Developer, back-end",12.0,104413.0,75769.0,86473.0,-17940.0
+DNK,"Developer, front-end",7.0,83981.0,90445.0,100799.0,16818.0
+NLD,"Developer, full-stack",9.0,87011.0,87711.0,85721.0,-1290.0
+BRA,"Developer, full-stack",15.0,200000.0,29459.0,59303.0,-140697.0
+GRC,"Developer, full-stack",9.0,41025.0,48366.0,54257.0,13232.0
+DEU,DevOps engineer or professional,7.0,93972.0,118848.0,89791.0,-4181.0
+CAN,"Developer, back-end",3.0,72958.0,94420.0,62441.0,-10517.0
+CHE,Applied scientist,46.0,200000.0,208254.0,183674.0,-16326.0
+IND,"Developer, front-end",7.0,38359.0,18890.0,32828.0,-5531.0
+FRA,"Developer, desktop or enterprise applications",,35965.0,41383.0,34750.0,-1215.0
+FIN,"Developer, full-stack",15.0,160100.0,69328.0,75915.0,-84185.0
+ISR,"Developer, desktop or enterprise applications",4.0,84125.0,41146.0,37514.0,-46611.0
+COL,"Developer, desktop or enterprise applications",25.0,25447.0,22767.0,22671.0,-2776.0
+DNK,"Architect, software or solutions",20.0,124416.0,138042.0,140977.0,16561.0
+USA,"Architect, software or solutions",15.0,112000.0,143646.0,140440.0,28440.0
+GBR,"Developer, back-end",9.0,91215.0,75643.0,81961.0,-9254.0
+CZE,"Developer, desktop or enterprise applications",40.0,70208.0,106969.0,78555.0,8347.0
+UKR,"Developer, front-end",7.0,48000.0,18578.0,23262.0,-24738.0
+NAM,"Developer, full-stack",8.0,35000.0,12190.0,16071.0,-18929.0
+DEU,"Developer, back-end",13.0,109054.0,91217.0,91729.0,-17325.0
+USA,"Developer, full-stack",17.0,250000.0,188004.0,187476.0,-62524.0
+POL,"Developer, embedded applications or devices",6.0,62221.0,58743.0,71289.0,9068.0
+IND,"Developer, game or graphics",6.0,13949.0,16445.0,26904.0,12955.0
+IND,"Developer, front-end",3.0,6974.0,16860.0,14940.0,7966.0
+NPL,"Developer, full-stack",4.0,1018.0,8604.0,6188.0,5170.0
+FRA,"Developer, embedded applications or devices",5.0,81210.0,65198.0,58348.0,-22862.0
+BRA,"Architect, software or solutions",22.0,54611.0,57010.0,52816.0,-1795.0
+BRA,"Developer, mobile",10.0,21844.0,30130.0,43265.0,21421.0
+CZE,Data engineer,17.0,116015.0,105345.0,117194.0,1179.0
+GBR,"Architect, software or solutions",18.0,136141.0,129653.0,113186.0,-22955.0
+USA,"Developer, full-stack",25.0,190000.0,181708.0,152790.0,-37210.0
+USA,"Developer, back-end",15.0,194000.0,159381.0,179257.0,-14743.0
+FRA,"Developer, full-stack",6.0,43505.0,53961.0,80641.0,37136.0
+DEU,"Developer, back-end",10.0,76570.0,77622.0,92923.0,16353.0
+UKR,AI/ML engineer,4.0,48000.0,22920.0,29486.0,-18514.0
+FRA,"Developer, full-stack",5.0,55687.0,57119.0,59466.0,3779.0
+USA,"Developer, back-end",15.0,365000.0,171060.0,181441.0,-183559.0
+SVN,DevOps engineer or professional,28.0,46406.0,66520.0,76057.0,29651.0
+USA,"Architect, software or solutions",22.0,300000.0,189676.0,177497.0,-122503.0
+IND,"Developer, front-end",1.0,10462.0,23875.0,17543.0,7081.0
+SWE,"Senior executive (C-suite, VP, etc.)",25.0,104822.0,120237.0,113501.0,8679.0
+ITA,"Developer, desktop or enterprise applications",13.0,138754.0,59727.0,65111.0,-73643.0
+JPN,"Developer, desktop or enterprise applications",10.0,19345.0,49635.0,59824.0,40479.0
+HRV,"Developer, mobile",5.0,34804.0,50485.0,41237.0,6433.0
+SAU,"Developer, full-stack",3.0,17594.0,42136.0,37685.0,20091.0
+USA,"Developer, back-end",17.0,213000.0,198688.0,190868.0,-22132.0
+USA,Data engineer,2.0,110000.0,94806.0,103442.0,-6558.0
+CHE,"Developer, full-stack",14.0,136392.0,109356.0,99898.0,-36494.0
+COL,"Developer, full-stack",30.0,1200.0,52149.0,48901.0,47701.0
+MEX,"Architect, software or solutions",4.0,85000.0,47051.0,22203.0,-62797.0
+USA,Engineering manager,30.0,253000.0,260516.0,158397.0,-94603.0
+SWE,"Developer, back-end",15.0,83920.0,79268.0,83636.0,-284.0
+USA,DevOps engineer or professional,23.0,87000.0,87766.0,155076.0,68076.0
+HRV,"Architect, software or solutions",10.0,75410.0,63164.0,75310.0,-100.0
+BRA,"Developer, back-end",31.0,32767.0,36354.0,29573.0,-3194.0
+USA,"Architect, software or solutions",5.0,750000.0,205607.0,157504.0,-592496.0
+BRA,"Developer, back-end",20.0,60000.0,49568.0,80202.0,20202.0
+USA,"Developer, full-stack",6.0,75000.0,97457.0,97387.0,22387.0
+CAN,"Developer, game or graphics",18.0,80254.0,108235.0,109006.0,28752.0
+USA,"Developer, full-stack",15.0,150000.0,148146.0,149223.0,-777.0
+USA,"Developer, back-end",23.0,160000.0,197718.0,179119.0,19119.0
+JPN,"Developer, full-stack",25.0,55271.0,74999.0,86408.0,31137.0
+AGO,"Developer, full-stack",3.0,13922.0,12244.0,7968.0,-5954.0
+NZL,"Developer, full-stack",12.0,96377.0,80622.0,85964.0,-10413.0
+USA,"Developer, full-stack",13.0,175000.0,139027.0,162194.0,-12806.0
+MEX,Data engineer,13.0,78959.0,36756.0,53859.0,-25100.0
+DEU,"Developer, full-stack",10.0,104413.0,74765.0,84589.0,-19824.0
+AUT,"Developer, full-stack",1.0,46470.0,43788.0,30537.0,-15933.0
+USA,"Developer, back-end",7.0,170000.0,137424.0,154068.0,-15932.0
+IRL,"Architect, software or solutions",35.0,139218.0,91010.0,84194.0,-55024.0
+AUS,"Developer, full-stack",10.0,63059.0,63517.0,77846.0,14787.0
+AUT,"Developer, full-stack",4.0,71349.0,48487.0,44524.0,-26825.0
+DEU,"Developer, full-stack",12.0,110214.0,67346.0,90580.0,-19634.0
+FIN,"Developer, full-stack",25.0,64388.0,50024.0,63877.0,-511.0
+LVA,"Developer, back-end",25.0,46406.0,78802.0,92743.0,46337.0
+USA,"Developer, full-stack",22.0,100000.0,148625.0,143946.0,43946.0
+ALB,"Developer, back-end",25.0,17402.0,46479.0,52031.0,34629.0
+ISR,Cloud infrastructure engineer,10.0,294142.0,87328.0,121239.0,-172903.0
+FIN,"Architect, software or solutions",20.0,127616.0,71655.0,65199.0,-62417.0
+IND,"Developer, front-end",10.0,6974.0,16841.0,27437.0,20463.0
+USA,"Developer, full-stack",26.0,170000.0,188766.0,161561.0,-8439.0
+AUS,"Developer, full-stack",28.0,81262.0,113731.0,104575.0,23313.0
+AUS,"Founder, technology or otherwise",35.0,61759.0,146321.0,173542.0,111783.0
+DEU,"Architect, software or solutions",4.0,47009.0,78449.0,61398.0,14389.0
+USA,"Developer, front-end",13.0,190000.0,148149.0,153872.0,-36128.0
+USA,"Developer, full-stack",18.0,170000.0,153618.0,175967.0,5967.0
+BRA,"Developer, full-stack",15.0,54611.0,36794.0,47015.0,-7596.0
+CAN,"Developer, full-stack",28.0,69310.0,105596.0,85008.0,15698.0
+USA,"Architect, software or solutions",13.0,195000.0,181574.0,221693.0,26693.0
+USA,"Developer, full-stack",8.0,220000.0,122863.0,127055.0,-92945.0
+AUT,"Developer, back-end",18.0,121815.0,94596.0,108994.0,-12821.0
+GBR,"Developer, full-stack",8.0,78962.0,98233.0,79432.0,470.0
+MYS,Data engineer,2.0,14138.0,24274.0,18980.0,4842.0
+AUT,"Developer, back-end",9.0,174022.0,89277.0,82902.0,-91120.0
+DEU,"Developer, full-stack",28.0,102093.0,110575.0,83636.0,-18457.0
+NLD,"Developer, full-stack",12.0,162421.0,88082.0,94711.0,-67710.0
+DEU,"Developer, front-end",3.0,64968.0,80456.0,51438.0,-13530.0
+USA,"Developer, back-end",39.0,220000.0,311947.0,199103.0,-20897.0
+CAN,"Developer, full-stack",5.0,61285.0,50350.0,46849.0,-14436.0
+DEU,DevOps engineer or professional,5.0,63808.0,86482.0,63413.0,-395.0
+USA,AI/ML engineer,6.0,140000.0,120080.0,141821.0,1821.0
+DEU,"Developer, full-stack",21.0,92812.0,114374.0,112079.0,19267.0
+USA,Other (please specify):,4.0,70000.0,107600.0,106387.0,36387.0
+ESP,"Developer, full-stack",10.0,49886.0,48557.0,66207.0,16321.0
+CHE,"Developer, embedded applications or devices",17.0,161191.0,154493.0,174525.0,13334.0
+NLD,"Developer, front-end",2.0,32484.0,52380.0,35840.0,3356.0
+IRL,"Developer, back-end",13.0,116015.0,74302.0,72441.0,-43574.0
+CAN,"Developer, QA or test",1.0,65663.0,60093.0,48695.0,-16968.0
+USA,"Developer, full-stack",10.0,96000.0,141534.0,147965.0,51965.0
+GBR,"Developer, mobile",10.0,122527.0,64001.0,74143.0,-48384.0
+USA,"Developer, full-stack",15.0,2000000.0,85603.0,114419.0,-1885581.0
+USA,"Developer, back-end",13.0,135000.0,168050.0,185539.0,50539.0
+USA,"Architect, software or solutions",20.0,235000.0,130838.0,145343.0,-89657.0
+SRB,"Developer, back-end",12.0,139218.0,33423.0,31469.0,-107749.0
+USA,"Developer, full-stack",3.0,95000.0,109085.0,106981.0,11981.0
+NLD,"Developer, full-stack",10.0,83531.0,69822.0,89004.0,5473.0
+PRT,"Developer, game or graphics",10.0,80000.0,50281.0,63452.0,-16548.0
+UKR,"Architect, software or solutions",20.0,96000.0,29722.0,57168.0,-38832.0
+GBR,"Developer, front-end",2.0,53095.0,57857.0,49751.0,-3344.0
+DEU,"Developer, full-stack",7.0,96292.0,70346.0,83212.0,-13080.0
+ITA,"Developer, embedded applications or devices",38.0,58007.0,64045.0,63838.0,5831.0
+CYP,"Developer, back-end",23.0,90491.0,101275.0,103270.0,12779.0
+ISR,"Developer, desktop or enterprise applications",5.0,211782.0,51091.0,64881.0,-146901.0
+,"Developer, front-end",2.0,30000.0,37307.0,47032.0,17032.0
+ARE,"Developer, full-stack",10.0,49014.0,54107.0,78387.0,29373.0
+ITA,"Architect, software or solutions",19.0,66128.0,65644.0,61722.0,-4406.0
+BRA,"Developer, full-stack",4.0,12014.0,18907.0,13462.0,1448.0
+USA,"Developer, desktop or enterprise applications",5.0,170000.0,88723.0,88094.0,-81906.0
+CAN,Cloud infrastructure engineer,4.0,64933.0,87132.0,49584.0,-15349.0
+CAN,"Architect, software or solutions",16.0,95955.0,133525.0,123635.0,27680.0
+DEU,"Developer, embedded applications or devices",20.0,106733.0,113715.0,104964.0,-1769.0
+DEU,"Developer, full-stack",15.0,116015.0,120035.0,114156.0,-1859.0
+AUS,"Developer, embedded applications or devices",40.0,97514.0,149913.0,112234.0,14720.0
+GBR,"Developer, full-stack",32.0,117082.0,175472.0,146195.0,29113.0
+GBR,"Developer, back-end",18.0,204212.0,104089.0,102599.0,-101613.0
+ZAF,Data engineer,17.0,84568.0,45197.0,84409.0,-159.0
+ISR,"Developer, full-stack",11.0,151777.0,50204.0,80740.0,-71037.0
+POL,"Developer, back-end",2.0,60038.0,61694.0,37574.0,-22464.0
+AUS,"Developer, full-stack",15.0,71510.0,64773.0,81904.0,10394.0
+DEU,"Developer, full-stack",14.0,92812.0,69427.0,87104.0,-5708.0
+CZE,"Developer, full-stack",2.0,16850.0,39827.0,34043.0,17193.0
+USA,"Architect, software or solutions",14.0,360000.0,179848.0,154682.0,-205318.0
+GBR,"Developer, full-stack",1.0,44015.0,66138.0,52260.0,8245.0
+FRA,"Developer, front-end",10.0,54527.0,79426.0,89104.0,34577.0
+CZE,"Developer, full-stack",7.0,44933.0,72072.0,75068.0,30135.0
+USA,"Developer, embedded applications or devices",6.0,90000.0,105178.0,108775.0,18775.0
+ISR,"Developer, back-end",13.0,120000.0,70816.0,77438.0,-42562.0
+JAM,"Developer, back-end",9.0,62180.0,35749.0,36179.0,-26001.0
+GHA,"Architect, software or solutions",5.0,8121.0,17354.0,8016.0,-105.0
+GBR,"Developer, full-stack",13.0,51734.0,70964.0,83822.0,32088.0
+USA,Cloud infrastructure engineer,18.0,400000.0,233070.0,228835.0,-171165.0
+PRT,"Developer, full-stack",2.0,20883.0,36255.0,29423.0,8540.0
+USA,"Developer, full-stack",5.0,175000.0,130528.0,189875.0,14875.0
+FRA,"Architect, software or solutions",3.0,40605.0,43943.0,40211.0,-394.0
+LVA,"Developer, full-stack",22.0,69609.0,65184.0,69907.0,298.0
+FIN,"Developer, full-stack",1.0,49886.0,48967.0,39751.0,-10135.0
+USA,"Developer, front-end",7.0,90000.0,120549.0,105877.0,15877.0
+CHE,Other (please specify):,3.0,550000.0,105182.0,48808.0,-501192.0
+USA,AI/ML engineer,25.0,30000.0,262192.0,175601.0,145601.0
+BEL,"Developer, full-stack",9.0,116015.0,82932.0,84113.0,-31902.0
+FRA,"Architect, software or solutions",6.0,46406.0,62447.0,58754.0,12348.0
+MRT,"Developer, full-stack",3.0,121570.0,10242.0,8635.0,-112935.0
+CHL,"Developer, front-end",8.0,55136.0,69139.0,69861.0,14725.0
+DEU,"Architect, software or solutions",18.0,98612.0,106025.0,91993.0,-6619.0
+USA,"Developer, back-end",14.0,645000.0,226633.0,212580.0,-432420.0
+DEU,DevOps engineer or professional,13.0,127616.0,105068.0,107303.0,-20313.0
+GBR,"Developer, full-stack",3.0,44927.0,89613.0,60391.0,15464.0
+NOR,"Developer, full-stack",8.0,83200.0,53928.0,54358.0,-28842.0
+USA,"Developer, full-stack",25.0,240000.0,145130.0,133482.0,-106518.0
+USA,Other (please specify):,2.0,43350.0,96825.0,84796.0,41446.0
+IND,"Developer, full-stack",1.0,5812.0,16279.0,11621.0,5809.0
+DEU,Cloud infrastructure engineer,13.0,104413.0,78153.0,68142.0,-36271.0
+GBR,"Developer, back-end",11.0,68071.0,89849.0,121778.0,53707.0
+CAN,"Developer, back-end",16.0,248058.0,105656.0,115396.0,-132662.0
+USA,"Developer, full-stack",30.0,300000.0,242480.0,161334.0,-138666.0
+BRA,Academic researcher,5.0,36407.0,17115.0,23145.0,-13262.0
+USA,"Developer, full-stack",12.0,135000.0,131621.0,179800.0,44800.0
+PRT,"Developer, full-stack",4.0,26683.0,47939.0,36321.0,9638.0
+NPL,"Developer, full-stack",2.0,4363.0,9252.0,7454.0,3091.0
+ITA,"Developer, back-end",15.0,58007.0,52302.0,63025.0,5018.0
+CAN,"Developer, full-stack",1.0,21888.0,72756.0,39847.0,17959.0
+FRA,"Developer, full-stack",15.0,63808.0,56940.0,61473.0,-2335.0
+BEL,"Developer, full-stack",10.0,53367.0,64442.0,78808.0,25441.0
+POL,"Developer, mobile",18.0,72000.0,93957.0,105076.0,33076.0
+IND,"Developer, full-stack",11.0,44462.0,24667.0,31134.0,-13328.0
+USA,Data scientist,16.0,90000.0,182844.0,189319.0,99319.0
+CZE,"Developer, desktop or enterprise applications",8.0,58975.0,70354.0,67742.0,8767.0
+GBR,"Developer, full-stack",22.0,163370.0,137196.0,114035.0,-49335.0
+IDN,"Developer, full-stack",6.0,18674.0,28245.0,27933.0,9259.0
+GBR,"Developer, full-stack",23.0,65348.0,87884.0,83594.0,18246.0
+CHE,"Developer, embedded applications or devices",19.0,161191.0,116476.0,143704.0,-17487.0
+UKR,"Developer, back-end",4.0,36197.0,25212.0,13573.0,-22624.0
+HUN,"Developer, full-stack",9.0,41640.0,55274.0,59428.0,17788.0
+IND,"Developer, back-end",3.0,2790.0,12307.0,10802.0,8012.0
+IRL,"Developer, full-stack",10.0,41765.0,45827.0,66428.0,24663.0
+SRB,"Developer, full-stack",15.0,28511.0,20272.0,88041.0,59530.0
+GBR,"Developer, full-stack",4.0,47650.0,79702.0,69444.0,21794.0
+UKR,"Developer, full-stack",9.0,6240.0,20655.0,66847.0,60607.0
+USA,"Developer, front-end",17.0,164000.0,152186.0,162527.0,-1473.0
+GBR,Data scientist,5.0,81685.0,69054.0,75115.0,-6570.0
+BRA,"Developer, back-end",,27306.0,30806.0,41116.0,13810.0
+USA,"Founder, technology or otherwise",30.0,170000.0,234990.0,228768.0,58768.0
+BGR,"Developer, back-end",10.0,87011.0,63667.0,95155.0,8144.0
+MAR,"Developer, full-stack",6.0,34804.0,13143.0,23850.0,-10954.0
+USA,"Developer, back-end",10.0,210000.0,164118.0,182787.0,-27213.0
+USA,"Developer, QA or test",4.0,135000.0,146937.0,100981.0,-34019.0
+RUS,"Founder, technology or otherwise",21.0,51038.0,74163.0,60381.0,9343.0
+EGY,"Developer, back-end",5.0,17975.0,12193.0,14229.0,-3746.0
+DEU,"Developer, full-stack",5.0,81210.0,66535.0,70446.0,-10764.0
+GBR,AI/ML engineer,3.0,69432.0,89825.0,78855.0,9423.0
+DZA,"Developer, full-stack",3.0,1156.0,19634.0,7835.0,6679.0
+DEU,"Developer, back-end",11.0,44550.0,69816.0,76117.0,31567.0
+USA,"Developer, full-stack",11.0,105000.0,129397.0,143098.0,38098.0
+BRA,"Developer, full-stack",10.0,34951.0,33971.0,34479.0,-472.0
+DEU,"Developer, back-end",15.0,92812.0,96885.0,105925.0,13113.0
+POL,"Developer, back-end",3.0,36841.0,53590.0,46300.0,9459.0
+DEU,Project manager,18.0,53292.0,75529.0,89053.0,35761.0
+ITA,Engineering manager,19.0,69609.0,68081.0,77307.0,7698.0
+USA,"Architect, software or solutions",27.0,262000.0,248579.0,271701.0,9701.0
+FRA,DevOps engineer or professional,10.0,116015.0,80118.0,84224.0,-31791.0
+USA,"Developer, full-stack",20.0,78000.0,144670.0,161920.0,83920.0
+JOR,"Developer, back-end",14.0,67702.0,39836.0,40712.0,-26990.0
+DEU,"Architect, software or solutions",10.0,115667.0,114509.0,103818.0,-11849.0
+MDV,"Developer, full-stack",18.0,23369.0,27368.0,39296.0,15927.0
+DEU,"Developer, full-stack",15.0,98612.0,65729.0,74805.0,-23807.0
+AUS,"Developer, full-stack",20.0,113766.0,123803.0,129749.0,15983.0
+IND,"Developer, full-stack",7.0,16274.0,11159.0,12004.0,-4270.0
+USA,"Developer, back-end",20.0,163000.0,195172.0,180403.0,17403.0
+USA,"Developer, full-stack",7.0,136000.0,144340.0,140961.0,4961.0
+LTU,"Developer, full-stack",10.0,60328.0,74300.0,83308.0,22980.0
+NLD,Other (please specify):,43.0,116015.0,130532.0,72661.0,-43354.0
+BRA,"Developer, back-end",6.0,43689.0,36327.0,33621.0,-10068.0
+SWE,"Developer, full-stack",32.0,115304.0,108597.0,73999.0,-41305.0
+IND,"Architect, software or solutions",6.0,2500000.0,26312.0,38415.0,-2461585.0
+GBR,"Architect, software or solutions",12.0,108913.0,99870.0,111672.0,2759.0
+ESP,AI/ML engineer,8.0,104413.0,63960.0,91047.0,-13366.0
+DEU,"Developer, embedded applications or devices",10.0,104413.0,93809.0,107322.0,2909.0
+USA,Cybersecurity or InfoSec professional,7.0,105000.0,147004.0,119281.0,14281.0
+ESP,"Developer, full-stack",3.0,32484.0,38869.0,39261.0,6777.0
+CAN,"Developer, mobile",16.0,64933.0,85892.0,77506.0,12573.0
+IND,"Developer, full-stack",4.0,20923.0,23928.0,29784.0,8861.0
+DEU,"Developer, AI apps or physical AI",7.0,69609.0,95040.0,80411.0,10802.0
+USA,Other (please specify):,2.0,180000.0,140906.0,125336.0,-54664.0
+AUS,"Developer, back-end",35.0,162523.0,131924.0,112343.0,-50180.0
+USA,"Developer, game or graphics",42.0,62000.0,238009.0,164587.0,102587.0
+AUS,DevOps engineer or professional,21.0,149522.0,142036.0,127776.0,-21746.0
+NPL,"Developer, full-stack",5.0,3490.0,7951.0,6310.0,2820.0
+DNK,"Developer, mobile",23.0,104199.0,118486.0,118786.0,14587.0
+USA,"Developer, full-stack",27.0,125000.0,133428.0,122333.0,-2667.0
+ESP,"Developer, back-end",11.0,110000.0,53542.0,76497.0,-33503.0
+DEU,"Developer, front-end",6.0,81210.0,48029.0,61067.0,-20143.0
+ITA,"Developer, front-end",40.0,52207.0,54512.0,49684.0,-2523.0
+DEU,Data engineer,14.0,121815.0,117216.0,118151.0,-3664.0
+USA,"Architect, software or solutions",19.0,330000.0,195704.0,226846.0,-103154.0
+MEX,"Developer, full-stack",9.0,28741.0,26422.0,16068.0,-12673.0
+USA,"Developer, desktop or enterprise applications",37.0,150000.0,135847.0,100307.0,-49693.0
+USA,AI/ML engineer,15.0,180000.0,246317.0,379803.0,199803.0
+HRV,"Developer, game or graphics",6.0,17402.0,65529.0,48950.0,31548.0
+SWE,"Developer, full-stack",7.0,89098.0,73418.0,83910.0,-5188.0
+GBR,"Developer, desktop or enterprise applications",3.0,74878.0,73387.0,71454.0,-3424.0
+GBR,"Developer, back-end",1.0,29951.0,73998.0,56974.0,27023.0
+UKR,"Developer, back-end",8.0,5453.0,30714.0,78844.0,73391.0
+UKR,"Developer, back-end",11.0,95865.0,24820.0,63346.0,-32519.0
+ESP,"Developer, mobile",22.0,34804.0,70191.0,72835.0,38031.0
+DEU,"Developer, embedded applications or devices",4.0,69609.0,76680.0,59767.0,-9842.0
+DEU,"Developer, full-stack",12.0,77730.0,94160.0,104423.0,26693.0
+USA,DevOps engineer or professional,8.0,145000.0,152526.0,173405.0,28405.0
+DEU,Data scientist,13.0,92812.0,97193.0,112056.0,19244.0
+TUR,"Developer, back-end",3.0,69000.0,22955.0,12746.0,-56254.0
+NZL,"Developer, full-stack",10.0,69271.0,58131.0,65945.0,-3326.0
+IND,Other (please specify):,4.0,8985.0,19564.0,23723.0,14738.0
+CHE,"Developer, full-stack",25.0,123993.0,153132.0,124641.0,648.0
+BRA,"Developer, back-end",,10922.0,36342.0,46707.0,35785.0
+USA,"Developer, full-stack",7.0,125000.0,123496.0,130782.0,5782.0
+USA,Financial analyst or engineer,35.0,210000.0,270947.0,203029.0,-6971.0
+USA,"Developer, full-stack",20.0,123000.0,145882.0,117828.0,-5172.0
+JPN,DevOps engineer or professional,8.0,60798.0,70101.0,78143.0,17345.0
+FRA,"Developer, desktop or enterprise applications",27.0,30164.0,62669.0,64606.0,34442.0
+GBR,"Developer, embedded applications or devices",25.0,115040.0,112562.0,116668.0,1628.0
+IND,"Architect, software or solutions",11.0,58120.0,21677.0,27454.0,-30666.0
+ARG,"Developer, back-end",2.0,15355.0,28686.0,9775.0,-5580.0
+ITA,"Architect, software or solutions",18.0,76570.0,51119.0,49462.0,-27108.0
+GBR,Engineering manager,10.0,95299.0,93654.0,97648.0,2349.0
+USA,"Developer, full-stack",15.0,100000.0,110477.0,138205.0,38205.0
+ITA,"Architect, software or solutions",14.0,58007.0,49735.0,48694.0,-9313.0
+GBR,"Developer, game or graphics",12.0,61264.0,61418.0,71966.0,10702.0
+BRA,"Architect, software or solutions",10.0,34951.0,42826.0,36953.0,2002.0
+USA,Data scientist,10.0,100000.0,206562.0,214188.0,114188.0
+USA,Cloud infrastructure engineer,12.0,110000.0,175304.0,201886.0,91886.0
+AUT,"Developer, desktop or enterprise applications",26.0,42577.0,65562.0,62524.0,19947.0
+PRT,"Developer, back-end",7.0,69609.0,51123.0,49343.0,-20266.0
+BRA,"Developer, back-end",12.0,66128.0,38007.0,44678.0,-21450.0
+IRL,Data engineer,7.0,116015.0,72049.0,75190.0,-40825.0
+ITA,"Developer, full-stack",2.0,31904.0,49010.0,40650.0,8746.0
+USA,"Developer, full-stack",47.0,130000.0,170170.0,118553.0,-11447.0
+UKR,"Developer, back-end",5.0,4000.0,23383.0,26868.0,22868.0
+COL,"Developer, back-end",21.0,54320.0,63582.0,91283.0,36963.0
+NLD,"Developer, full-stack",11.0,71929.0,59361.0,80327.0,8398.0
+IND,Cybersecurity or InfoSec professional,2.0,34872.0,17582.0,11844.0,-23028.0
+USA,Cybersecurity or InfoSec professional,29.0,225000.0,236141.0,173271.0,-51729.0
+USA,"Developer, embedded applications or devices",5.0,120000.0,157230.0,140409.0,20409.0
+USA,"Developer, full-stack",14.0,156000.0,120362.0,149496.0,-6504.0
+ITA,"Developer, front-end",7.0,40605.0,50817.0,57592.0,16987.0
+NLD,"Developer, full-stack",18.0,64968.0,76047.0,74274.0,9306.0
+GRC,"Developer, full-stack",3.0,15662.0,45840.0,40316.0,24654.0
+SWE,"Developer, mobile",15.0,88050.0,92914.0,108179.0,20129.0
+BRA,"Developer, back-end",25.0,45509.0,53661.0,35904.0,-9605.0
+DEU,"Developer, full-stack",6.0,69609.0,49320.0,60992.0,-8617.0
+AUT,"Developer, embedded applications or devices",10.0,85851.0,69309.0,85602.0,-249.0
+GBR,"Developer, full-stack",17.0,51598.0,68559.0,86373.0,34775.0
+ESP,"Architect, software or solutions",20.0,98612.0,94990.0,96538.0,-2074.0
+ITA,"Developer, QA or test",10.0,27844.0,71885.0,78543.0,50699.0
+CHE,"Developer, full-stack",5.0,179790.0,188491.0,85818.0,-93972.0
+GBR,"Developer, back-end",12.0,127973.0,130491.0,136241.0,8268.0
+MEX,"Developer, desktop or enterprise applications",12.0,26320.0,32370.0,37166.0,10846.0
+FRA,"Developer, back-end",15.0,118335.0,102671.0,113713.0,-4622.0
+PAK,"Developer, full-stack",7.0,15592.0,13443.0,12627.0,-2965.0
+SLV,"Developer, full-stack",21.0,120000.0,40273.0,87910.0,-32090.0
+CAN,"Developer, full-stack",6.0,145917.0,79025.0,83838.0,-62079.0
+POL,"Developer, full-stack",1.0,27836.0,36262.0,30133.0,2297.0
+,AI/ML engineer,3.0,33886.0,66647.0,70141.0,36255.0
+USA,"Developer, full-stack",9.0,107000.0,150964.0,172323.0,65323.0
+IND,"Developer, mobile",11.0,13949.0,22122.0,36788.0,22839.0
+USA,"Developer, full-stack",25.0,120000.0,167002.0,162493.0,42493.0
+GBR,"Developer, embedded applications or devices",34.0,83046.0,129318.0,105213.0,22167.0
+USA,"Developer, back-end",22.0,305000.0,226778.0,219630.0,-85370.0
+AUS,"Developer, full-stack",19.0,138470.0,113188.0,124481.0,-13989.0
+DEU,"Developer, desktop or enterprise applications",28.0,92812.0,76829.0,59093.0,-33719.0
+ITA,Other (please specify):,4.0,46406.0,46260.0,37545.0,-8861.0
+GBR,"Developer, back-end",15.0,190598.0,115635.0,127660.0,-62938.0
+DEU,"Developer, back-end",45.0,87011.0,180076.0,81260.0,-5751.0
+ESP,"Developer, full-stack",30.0,174022.0,64539.0,56158.0,-117864.0
+IND,"Developer, back-end",10.0,58120.0,22346.0,15909.0,-42211.0
+DEU,"Developer, embedded applications or devices",17.0,83531.0,120784.0,115507.0,31976.0
+USA,"Architect, software or solutions",10.0,275000.0,129729.0,184672.0,-90328.0
+UKR,"Developer, full-stack",8.0,6400.0,25600.0,34595.0,28195.0
+NGA,DevOps engineer or professional,4.0,70000.0,12362.0,15839.0,-54161.0
+ESP,"Developer, back-end",20.0,58007.0,105563.0,109359.0,51352.0
+DEU,"Developer, full-stack",5.0,63808.0,47433.0,50681.0,-13127.0
+PRT,"Developer, back-end",17.0,145018.0,67808.0,74813.0,-70205.0
+UKR,"Developer, full-stack",26.0,60000.0,37227.0,39114.0,-20886.0
+UKR,"Developer, back-end",19.0,11504.0,29991.0,85363.0,73859.0
+POL,"Developer, back-end",12.0,99608.0,76205.0,84596.0,-15012.0
+UKR,"Developer, back-end",15.0,1007.0,27391.0,68790.0,67783.0
+NLD,"Developer, full-stack",10.0,69609.0,92986.0,101316.0,31707.0
+BRA,"Developer, mobile",15.0,62257.0,33591.0,54671.0,-7586.0
+FRA,"Developer, back-end",20.0,81210.0,123431.0,90146.0,8936.0
+IND,"Developer, front-end",14.0,29060.0,24692.0,31467.0,2407.0
+MDA,"Developer, mobile",19.0,4873.0,44486.0,61702.0,56829.0
+RUS,"Developer, back-end",4.0,53589.0,99274.0,62299.0,8710.0
+USA,"Developer, full-stack",19.0,200000.0,215755.0,204283.0,4283.0
+VNM,"Developer, mobile",1.0,3898.0,19657.0,6622.0,2724.0
+FRA,"Developer, embedded applications or devices",4.0,46406.0,53762.0,45282.0,-1124.0
+GRC,"Developer, QA or test",3.0,20883.0,67071.0,47426.0,26543.0
+BRA,Engineering manager,16.0,101941.0,67850.0,92362.0,-9579.0
+USA,Data or business analyst,20.0,200000.0,193269.0,196764.0,-3236.0
+CAN,"Developer, embedded applications or devices",16.0,127677.0,91635.0,113560.0,-14117.0
+USA,"Developer, full-stack",13.0,143420.0,120114.0,141627.0,-1793.0
+GRC,"Developer, full-stack",16.0,34804.0,67855.0,97768.0,62964.0
+IND,Data engineer,3.0,5231.0,16074.0,9021.0,3790.0
+USA,"Developer, full-stack",16.0,145000.0,153861.0,137835.0,-7165.0
+USA,"Developer, full-stack",4.0,138000.0,121639.0,101551.0,-36449.0
+USA,"Developer, full-stack",45.0,136000.0,225357.0,119099.0,-16901.0
+USA,AI/ML engineer,22.0,255000.0,187241.0,191858.0,-63142.0
+DEU,"Developer, full-stack",19.0,102093.0,98071.0,88562.0,-13531.0
+USA,Other (please specify):,3.0,110000.0,92671.0,94999.0,-15001.0
+DEU,"Developer, full-stack",1.0,58587.0,62720.0,58983.0,396.0
+USA,Data engineer,3.0,70000.0,121356.0,104157.0,34157.0
+USA,DevOps engineer or professional,30.0,185000.0,248777.0,174944.0,-10056.0
+AUS,System administrator,40.0,91013.0,85285.0,89312.0,-1701.0
+NLD,"Developer, full-stack",40.0,174022.0,135264.0,70735.0,-103287.0
+AUS,"Architect, software or solutions",15.0,208030.0,142745.0,115080.0,-92950.0
+CHE,"Developer, full-stack",10.0,167390.0,125435.0,122461.0,-44929.0
+ISR,"Developer, full-stack",5.0,97067.0,64145.0,41261.0,-55806.0
+DNK,"Developer, full-stack",1.0,76205.0,71786.0,54078.0,-22127.0
+USA,"Developer, full-stack",10.0,210000.0,123661.0,139405.0,-70595.0
+USA,"Developer, full-stack",16.0,180000.0,141473.0,161061.0,-18939.0
+SWE,"Developer, desktop or enterprise applications",9.0,54507.0,49708.0,60870.0,6363.0
+UKR,"Developer, back-end",12.0,31635.0,28168.0,37757.0,6122.0
+IND,"Developer, full-stack",5.0,12205.0,19930.0,28142.0,15937.0
+NGA,"Developer, front-end",2.0,3777.0,10038.0,10168.0,6391.0
+AUT,"Developer, back-end",3.0,25523.0,50141.0,41281.0,15758.0
+KEN,"Developer, full-stack",5.0,55727.0,11725.0,10147.0,-45580.0
+GBR,Engineering manager,20.0,300000.0,178016.0,147539.0,-152461.0
+ARG,"Developer, full-stack",4.0,32000.0,18286.0,11166.0,-20834.0
+ROU,"Developer, full-stack",6.0,62032.0,71502.0,68558.0,6526.0
+USA,"Developer, full-stack",14.0,89000.0,92209.0,112678.0,23678.0
+ZAF,"Developer, full-stack",15.0,73292.0,24352.0,40720.0,-32572.0
+AUS,"Developer, back-end",11.0,286041.0,126090.0,145815.0,-140226.0
+USA,"Developer, full-stack",37.0,152000.0,243651.0,126314.0,-25686.0
+BRA,"Developer, back-end",3.0,15109.0,31084.0,16762.0,1653.0
+SWE,Data engineer,9.0,89098.0,90132.0,95865.0,6767.0
+ITA,Data scientist,14.0,55687.0,88146.0,92300.0,36613.0
+DEU,"Developer, back-end",15.0,110214.0,82620.0,85012.0,-25202.0
+DEU,"Developer, desktop or enterprise applications",18.0,139218.0,116275.0,100724.0,-38494.0
+ROU,"Developer, full-stack",34.0,63808.0,72118.0,66535.0,2727.0
+ESP,"Developer, back-end",8.0,39445.0,43437.0,48707.0,9262.0
+LTU,"Developer, AI apps or physical AI",1.0,20883.0,48268.0,31445.0,10562.0
+FRA,"Developer, full-stack",2.0,35965.0,44774.0,36269.0,304.0
+ESP,"Developer, back-end",14.0,60328.0,66588.0,66722.0,6394.0
+DEU,"Developer, mobile",9.0,51975.0,50903.0,59610.0,7635.0
+USA,"Developer, front-end",2.0,95000.0,93875.0,89593.0,-5407.0
+HRV,"Developer, front-end",10.0,75734.0,55901.0,91157.0,15423.0
+USA,Database administrator or engineer,15.0,136000.0,126666.0,145240.0,9240.0
+FRA,"Developer, full-stack",7.0,63808.0,84039.0,78424.0,14616.0
+ESP,"Developer, back-end",10.0,100933.0,75283.0,91019.0,-9914.0
+GBR,"Developer, full-stack",19.0,115720.0,108635.0,105256.0,-10464.0
+CZE,"Developer, desktop or enterprise applications",20.0,56167.0,64749.0,58334.0,2167.0
+USA,"Developer, full-stack",6.0,125000.0,94216.0,106068.0,-18932.0
+DEU,"Developer, desktop or enterprise applications",26.0,81210.0,86507.0,79327.0,-1883.0
+DEU,"Developer, full-stack",39.0,87011.0,140370.0,89698.0,2687.0
+GBR,"Developer, full-stack",15.0,68071.0,78479.0,90930.0,22859.0
+GBR,"Developer, full-stack",20.0,122527.0,86095.0,86090.0,-36437.0
+GBR,"Developer, full-stack",4.0,44927.0,67339.0,60856.0,15929.0
+ESP,"Developer, back-end",7.0,34804.0,47216.0,51132.0,16328.0
+GBR,"Developer, full-stack",23.0,122527.0,84753.0,98277.0,-24250.0
+IND,"Developer, full-stack",5.0,1674.0,14385.0,15106.0,13432.0
+NOR,"Developer, full-stack",15.0,108710.0,77592.0,91650.0,-17060.0
+GBR,"UX, Research Ops or UI design professional",26.0,119805.0,110090.0,120789.0,984.0
+FRA,"Developer, full-stack",13.0,58007.0,56783.0,75212.0,17205.0
+USA,Academic researcher,5.0,80000.0,100832.0,91830.0,11830.0
+FRA,"Developer, full-stack",11.0,49886.0,47360.0,64305.0,14419.0
+GBR,"Developer, full-stack",5.0,59902.0,73720.0,80324.0,20422.0
+GBR,"Developer, full-stack",24.0,88492.0,87479.0,89539.0,1047.0
+BGD,"Developer, desktop or enterprise applications",7.0,8182.0,6180.0,9308.0,1126.0
+CZE,"Architect, software or solutions",12.0,117014.0,98443.0,108885.0,-8129.0
+USA,"Developer, back-end",28.0,200000.0,214220.0,137341.0,-62659.0
+FRA,"Developer, full-stack",8.0,34108.0,62480.0,85091.0,50983.0
+UKR,"Developer, back-end",4.0,3595.0,25316.0,20106.0,16511.0
+USA,Other (please specify):,20.0,355000.0,192597.0,265310.0,-89690.0
+IND,"Developer, back-end",3.0,15111.0,18036.0,13076.0,-2035.0
+DEU,Other (please specify):,8.0,104413.0,92054.0,92006.0,-12407.0
+MEX,DevOps engineer or professional,16.0,3316.0,36624.0,72892.0,69576.0
+ITA,Engineering manager,18.0,46406.0,69828.0,69307.0,22901.0
+UKR,"Developer, back-end",5.0,53651.0,23289.0,24000.0,-29651.0
+FRA,"Developer, back-end",14.0,63808.0,79412.0,74888.0,11080.0
+POL,"Developer, front-end",6.0,66321.0,64756.0,52365.0,-13956.0
+SWE,"Developer, full-stack",6.0,61635.0,49448.0,60017.0,-1618.0
+USA,Engineering manager,25.0,135000.0,232187.0,198486.0,63486.0
+GBR,"Developer, embedded applications or devices",12.0,183791.0,125351.0,146433.0,-37358.0
+FRA,"Developer, full-stack",25.0,83531.0,64188.0,75074.0,-8457.0
+USA,"Developer, full-stack",4.0,102000.0,138171.0,95769.0,-6231.0
+CAN,"Developer, full-stack",10.0,59096.0,85274.0,105679.0,46583.0
+DNK,Engineering manager,21.0,101088.0,146114.0,116112.0,15024.0
+UKR,"Developer, front-end",8.0,81590.0,25478.0,35261.0,-46329.0
+UKR,"Developer, back-end",18.0,24943.0,32411.0,76084.0,51141.0
+USA,"Architect, software or solutions",21.0,150000.0,185973.0,186603.0,36603.0
+DEU,"Developer, full-stack",10.0,63808.0,82933.0,87025.0,23217.0
+USA,"Developer, back-end",27.0,154000.0,178814.0,160642.0,6642.0
+BGD,"Developer, back-end",8.0,1064.0,13153.0,26352.0,25288.0
+IRN,"Senior executive (C-suite, VP, etc.)",25.0,3798.0,42128.0,37903.0,34105.0
+USA,"Developer, full-stack",2.0,240000.0,97557.0,67985.0,-172015.0
+HUN,"Developer, embedded applications or devices",15.0,202416.0,48894.0,50817.0,-151599.0
+USA,"Developer, full-stack",10.0,225000.0,130512.0,157617.0,-67383.0
+CZE,"Developer, back-end",9.0,149778.0,83823.0,89781.0,-59997.0
+BRA,DevOps engineer or professional,15.0,109222.0,38442.0,31704.0,-77518.0
+LSO,"Developer, front-end",6.0,2822.0,12838.0,13007.0,10185.0
+DEU,Cybersecurity or InfoSec professional,10.0,145018.0,81287.0,94782.0,-50236.0
+UKR,"Developer, back-end",3.0,33000.0,21396.0,14517.0,-18483.0
+IND,"Developer, back-end",10.0,15111.0,26724.0,42664.0,27553.0
+AUS,"Developer, full-stack",25.0,162523.0,110287.0,110236.0,-52287.0
+CHE,"Architect, software or solutions",26.0,99194.0,194716.0,186623.0,87429.0
+GBR,"Developer, mobile",30.0,147033.0,155858.0,125942.0,-21091.0
+ESP,"Developer, full-stack",13.0,63808.0,69548.0,81922.0,18114.0
+TUN,"Developer, desktop or enterprise applications",20.0,33944.0,16025.0,14069.0,-19875.0
+NLD,"Developer, back-end",10.0,121815.0,84743.0,102397.0,-19418.0
+CHE,"Developer, embedded applications or devices",9.0,105394.0,101857.0,111751.0,6357.0
+HUN,"Developer, front-end",4.0,24290.0,41601.0,28491.0,4201.0
+ISR,"Architect, software or solutions",22.0,294142.0,113388.0,119561.0,-174581.0
+CZE,DevOps engineer or professional,18.0,46806.0,85154.0,90731.0,43925.0
+DNK,"Developer, back-end",21.0,130637.0,116341.0,130506.0,-131.0
+AUS,"Senior executive (C-suite, VP, etc.)",20.0,182026.0,138416.0,153686.0,-28340.0
+USA,"Developer, full-stack",13.0,125000.0,129443.0,142645.0,17645.0
+EGY,"Developer, full-stack",1.0,7989.0,11805.0,6405.0,-1584.0
+ESP,"Architect, software or solutions",15.0,48726.0,92185.0,72390.0,23664.0
+DEU,"Developer, back-end",13.0,87011.0,89155.0,94106.0,7095.0
+FRA,Data scientist,5.0,84691.0,80861.0,80737.0,-3954.0
+BEL,Other (please specify):,5.0,45246.0,56380.0,51971.0,6725.0
+SRB,Other (please specify):,26.0,85000.0,49073.0,43344.0,-41656.0
+POL,Data engineer,4.0,130992.0,76648.0,42843.0,-88149.0
+UKR,"Developer, mobile",7.0,65780.0,22397.0,30054.0,-35726.0
+HRV,"Developer, front-end",18.0,59933.0,69787.0,66276.0,6343.0
+ROU,"Developer, mobile",11.0,193901.0,54694.0,63019.0,-130882.0
+USA,"Founder, technology or otherwise",20.0,300000.0,182362.0,189068.0,-110932.0
+,"Senior executive (C-suite, VP, etc.)",18.0,200000.0,95002.0,91159.0,-108841.0
+ITA,"Developer, back-end",3.0,32484.0,32534.0,43971.0,11487.0
+CHL,"Developer, full-stack",4.0,2121.0,64717.0,40740.0,38619.0
+BGD,Cloud infrastructure engineer,7.0,1317.0,13634.0,10689.0,9372.0
+USA,Data engineer,9.0,200000.0,185493.0,194521.0,-5479.0
+AUT,"Developer, embedded applications or devices",11.0,63808.0,49404.0,63201.0,-607.0
+CAN,"Developer, full-stack",5.0,98494.0,76335.0,64861.0,-33633.0
+USA,"Developer, front-end",36.0,120000.0,252208.0,147363.0,27363.0
+MEX,"Developer, full-stack",15.0,36847.0,35845.0,75345.0,38498.0
+CAN,"Developer, full-stack",14.0,87550.0,88783.0,93075.0,5525.0
+USA,"Developer, full-stack",13.0,300000.0,166410.0,245119.0,-54881.0
+DEU,"Developer, desktop or enterprise applications",1.0,55687.0,64869.0,64336.0,8649.0
+USA,"Developer, front-end",11.0,158000.0,130987.0,147476.0,-10524.0
+FRA,"Developer, desktop or enterprise applications",5.0,63808.0,63890.0,53573.0,-10235.0
+BEL,"Developer, desktop or enterprise applications",35.0,69609.0,118330.0,80638.0,11029.0
+DEU,DevOps engineer or professional,5.0,60328.0,57080.0,51260.0,-9068.0
+IND,"Developer, full-stack",7.0,34872.0,20833.0,26265.0,-8607.0
+USA,"Developer, back-end",15.0,152000.0,226665.0,341356.0,189356.0
+USA,"Developer, full-stack",10.0,62000.0,148674.0,149559.0,87559.0
+ESP,"Developer, full-stack",4.0,58007.0,62485.0,42507.0,-15500.0
+USA,Academic researcher,4.0,30000.0,74664.0,59285.0,29285.0
+IND,"Developer, full-stack",2.0,2906.0,9755.0,9104.0,6198.0
+AUS,DevOps engineer or professional,24.0,149522.0,129152.0,115621.0,-33901.0
+HUN,Data engineer,24.0,90000.0,66489.0,64144.0,-25856.0
+SRB,"Architect, software or solutions",28.0,92812.0,57130.0,62985.0,-29827.0
+DEU,"Developer, full-stack",6.0,75410.0,74959.0,76331.0,921.0
+DEU,"Architect, software or solutions",10.0,139218.0,87337.0,100590.0,-38628.0
+USA,"Developer, back-end",26.0,300000.0,244817.0,164903.0,-135097.0
+USA,"Developer, back-end",11.0,120000.0,146754.0,168304.0,48304.0
+USA,Cybersecurity or InfoSec professional,1.0,90000.0,104275.0,82702.0,-7298.0
+USA,DevOps engineer or professional,40.0,80000.0,257809.0,209198.0,129198.0
+UKR,"Developer, back-end",3.0,1246.0,21673.0,10349.0,9103.0
+IND,DevOps engineer or professional,14.0,94154.0,22127.0,59360.0,-34794.0
+FRA,"Developer, game or graphics",8.0,47334.0,56388.0,64948.0,17614.0
+USA,Data scientist,7.0,135000.0,144156.0,161986.0,26986.0
+DEU,"Developer, back-end",7.0,67289.0,68244.0,78571.0,11282.0
+CAN,DevOps engineer or professional,13.0,237115.0,117222.0,123683.0,-113432.0
+USA,"Developer, back-end",5.0,125000.0,173261.0,149788.0,24788.0
+KHM,"Developer, full-stack",8.0,1270.0,9340.0,9153.0,7883.0
+POL,"Developer, back-end",3.0,45847.0,59423.0,41630.0,-4217.0
+DEU,"Developer, full-stack",1.0,49886.0,58102.0,54213.0,4327.0
+DEU,"Developer, back-end",14.0,103021.0,100559.0,91142.0,-11879.0
+CHN,"Developer, back-end",4.0,27857.0,23650.0,23489.0,-4368.0
+SVK,"Developer, desktop or enterprise applications",4.0,43993.0,55254.0,42382.0,-1611.0
+USA,"Architect, software or solutions",25.0,170000.0,235204.0,195904.0,25904.0
+IRL,"Developer, full-stack",2.0,16822.0,40077.0,28456.0,11634.0
+USA,"Developer, mobile",27.0,220000.0,176347.0,134829.0,-85171.0
+USA,"Developer, full-stack",1.0,165000.0,106097.0,80091.0,-84909.0
+AUS,"Developer, full-stack",11.0,65009.0,69516.0,90769.0,25760.0
+FRA,AI/ML engineer,4.0,75410.0,54681.0,59060.0,-16350.0
+USA,"Developer, embedded applications or devices",30.0,250000.0,165679.0,171392.0,-78608.0
+UKR,"Developer, full-stack",25.0,50000.0,23394.0,19365.0,-30635.0
+ESP,"Developer, full-stack",5.0,51046.0,39150.0,48152.0,-2894.0
+IND,Other (please specify):,5.0,34872.0,18166.0,8591.0,-26281.0
+HUN,"Developer, full-stack",24.0,96870.0,56615.0,47730.0,-49140.0
+USA,Data engineer,9.0,140000.0,122833.0,161134.0,21134.0
+USA,"Developer, embedded applications or devices",40.0,140000.0,273635.0,193599.0,53599.0
+DEU,"Developer, full-stack",10.0,75410.0,60648.0,70850.0,-4560.0
+TUR,"Developer, mobile",8.0,63120.0,37979.0,45838.0,-17282.0
+ITA,"Developer, game or graphics",15.0,185623.0,44194.0,49161.0,-136462.0
+USA,"Founder, technology or otherwise",20.0,210000.0,199593.0,155585.0,-54415.0
+IRL,"Developer, full-stack",15.0,106733.0,64403.0,72098.0,-34635.0
+ROU,"Developer, full-stack",3.0,24813.0,49778.0,38383.0,13570.0
+POL,"Developer, back-end",8.0,64131.0,74070.0,64016.0,-115.0
+FRA,"Architect, software or solutions",31.0,139218.0,114398.0,112339.0,-26879.0
+TUR,"Developer, back-end",3.0,12624.0,21778.0,13187.0,563.0
+NLD,"Developer, full-stack",5.0,71929.0,80144.0,65966.0,-5963.0
+USA,"Developer, back-end",35.0,180000.0,285737.0,178616.0,-1384.0
+MYS,"Developer, full-stack",3.0,32988.0,30180.0,29048.0,-3940.0
+CAN,"Architect, software or solutions",31.0,65663.0,120062.0,94649.0,28986.0
+ITA,"Developer, mobile",14.0,34804.0,62329.0,60564.0,25760.0
+MEX,"Developer, full-stack",8.0,2632.0,28948.0,35368.0,32736.0
+USA,"Developer, back-end",25.0,310000.0,249969.0,336937.0,26937.0
+POL,"Developer, full-stack",18.0,60038.0,64826.0,79345.0,19307.0
+DEU,AI/ML engineer,3.0,119495.0,105057.0,73549.0,-45946.0
+GBR,"Developer, full-stack",5.0,61264.0,51662.0,57598.0,-3666.0
+POL,"Developer, full-stack",25.0,46393.0,74121.0,85551.0,39158.0
+USA,Engineering manager,8.0,200000.0,175317.0,193091.0,-6909.0
+BGD,"Developer, full-stack",15.0,12000.0,11700.0,27814.0,15814.0
+GRC,"Developer, front-end",12.0,59529.0,70660.0,86328.0,26799.0
+BGR,DevOps engineer or professional,12.0,41515.0,65814.0,73449.0,31934.0
+DEU,Academic researcher,8.0,75410.0,73442.0,71246.0,-4164.0
+USA,"Developer, front-end",14.0,170000.0,158645.0,165378.0,-4622.0
+ITA,Data engineer,5.0,50466.0,48273.0,39970.0,-10496.0
+MYS,"Developer, back-end",1.0,11781.0,18876.0,4727.0,-7054.0
+GBR,"Developer, back-end",10.0,106190.0,81706.0,105409.0,-781.0
+CAN,"Developer, full-stack",15.0,72958.0,97868.0,105081.0,32123.0
+NLD,"Developer, desktop or enterprise applications",30.0,116015.0,109526.0,69808.0,-46207.0
+GBR,Engineering manager,15.0,136141.0,140911.0,124603.0,-11538.0
+BGD,"Developer, full-stack",3.0,7658.0,10626.0,12103.0,4445.0
+DEU,"Developer, back-end",27.0,92812.0,109714.0,105103.0,12291.0
+DNK,"Architect, software or solutions",27.0,155521.0,185862.0,157851.0,2330.0
+FRA,Data engineer,9.0,156620.0,103099.0,81184.0,-75436.0
+AUT,"Developer, back-end",26.0,97104.0,89796.0,92580.0,-4524.0
+ITA,"Developer, full-stack",9.0,49886.0,42076.0,46144.0,-3742.0
+CZE,"Developer, mobile",5.0,52000.0,66693.0,42130.0,-9870.0
+SGP,"Developer, embedded applications or devices",16.0,121074.0,81718.0,83436.0,-37638.0
+IND,"Developer, desktop or enterprise applications",11.0,75556.0,17308.0,14999.0,-60557.0
+,"Developer, full-stack",39.0,139218.0,102412.0,55931.0,-83287.0
+HUN,"Developer, embedded applications or devices",11.0,30796.0,39721.0,50689.0,19893.0
+RUS,"Developer, back-end",9.0,58183.0,108011.0,98007.0,39824.0
+SWE,"Developer, full-stack",9.0,60796.0,70111.0,75032.0,14236.0
+ITA,"Developer, desktop or enterprise applications",5.0,37125.0,28600.0,36168.0,-957.0
+UKR,DevOps engineer or professional,5.0,60000.0,18084.0,17267.0,-42733.0
+DNK,"Developer, back-end",21.0,148678.0,124415.0,128216.0,-20462.0
+USA,"Developer, embedded applications or devices",24.0,193000.0,176008.0,212440.0,19440.0
+DEU,"Developer, full-stack",12.0,98612.0,56923.0,78472.0,-20140.0
+HRV,"Developer, embedded applications or devices",3.0,40605.0,47561.0,44168.0,3563.0
+USA,"Developer, back-end",17.0,840000.0,188495.0,283720.0,-556280.0
+GBR,"Developer, front-end",3.0,47650.0,60649.0,53880.0,6230.0
+BOL,"Developer, desktop or enterprise applications",8.0,6936.0,8966.0,5630.0,-1306.0
+USA,"Developer, full-stack",1.0,80000.0,105679.0,63945.0,-16055.0
+EST,"Developer, full-stack",1.0,29236.0,47590.0,37478.0,8242.0
+IND,"Developer, back-end",13.0,90667.0,31187.0,64309.0,-26358.0
+UKR,"Developer, full-stack",1.0,4793.0,18406.0,7466.0,2673.0
+DEU,"Developer, full-stack",13.0,78890.0,83886.0,93662.0,14772.0
+NOR,"Developer, full-stack",2.0,67203.0,52655.0,46879.0,-20324.0
+ISR,"Developer, embedded applications or devices",20.0,176485.0,108018.0,146250.0,-30235.0
+USA,"Architect, software or solutions",6.0,200000.0,94580.0,94782.0,-105218.0
+IND,"Developer, back-end",3.0,11624.0,12288.0,10228.0,-1396.0
+ITA,"Developer, front-end",3.0,27844.0,52211.0,39160.0,11316.0
+IND,"Developer, game or graphics",1.0,50000.0,14309.0,6013.0,-43987.0
+FRA,"Developer, back-end",10.0,92812.0,106636.0,102324.0,9512.0
+GBR,"Developer, full-stack",25.0,84408.0,106482.0,87925.0,3517.0
+DEU,"Developer, full-stack",10.0,92812.0,71027.0,88384.0,-4428.0
+DEU,"Developer, mobile",14.0,77730.0,84860.0,93185.0,15455.0
+GBR,"Developer, mobile",10.0,96660.0,95693.0,114927.0,18267.0
+CAN,"Developer, front-end",14.0,99223.0,101798.0,102121.0,2898.0
+FRA,"Developer, QA or test",5.0,46406.0,65239.0,57735.0,11329.0
+GBR,DevOps engineer or professional,30.0,74878.0,132126.0,116565.0,41687.0
+PRT,"Founder, technology or otherwise",15.0,139218.0,45379.0,68440.0,-70778.0
+ESP,"Developer, back-end",25.0,197225.0,99147.0,111373.0,-85852.0
+CZE,"Developer, full-stack",6.0,101428.0,73685.0,65303.0,-36125.0
+NLD,"Developer, back-end",15.0,125296.0,116847.0,112032.0,-13264.0
+RUS,"Developer, full-stack",10.0,46000.0,76659.0,76247.0,30247.0
+CAN,"Developer, full-stack",17.0,109438.0,63133.0,74410.0,-35028.0
+UKR,"Developer, back-end",6.0,29478.0,24031.0,25309.0,-4169.0
+USA,Data scientist,20.0,275000.0,222313.0,226781.0,-48219.0
+SRB,"Developer, back-end",3.0,2900.0,32482.0,40599.0,37699.0
+ITA,"Developer, full-stack",27.0,29004.0,51880.0,48845.0,19841.0
+USA,"Developer, full-stack",32.0,180000.0,199817.0,174168.0,-5832.0
+USA,"Developer, full-stack",8.0,108000.0,114470.0,145184.0,37184.0
+NOR,"Developer, back-end",6.0,88154.0,56671.0,68906.0,-19248.0
+ITA,"Developer, full-stack",16.0,58007.0,75917.0,67920.0,9913.0
+IND,"Developer, full-stack",6.0,116240.0,20205.0,29398.0,-86842.0
+POL,"Developer, mobile",8.0,60038.0,64800.0,55431.0,-4607.0
+DEU,"Founder, technology or otherwise",15.0,20883.0,90825.0,109132.0,88249.0
+IRN,"Developer, back-end",18.0,50000.0,38258.0,60993.0,10993.0
+CAN,"Developer, full-stack",3.0,98494.0,72308.0,54278.0,-44216.0
+BEL,Data engineer,5.0,64040.0,60233.0,46823.0,-17217.0
+FRA,"Developer, front-end",10.0,75410.0,67029.0,65477.0,-9933.0
+GBR,"Developer, back-end",15.0,61531.0,74897.0,88846.0,27315.0
+CHN,"Developer, full-stack",14.0,97500.0,28568.0,31637.0,-65863.0
+FRA,"Developer, full-stack",6.0,44086.0,50250.0,66085.0,21999.0
+GBR,"Developer, full-stack",28.0,88492.0,124672.0,88411.0,-81.0
+DEU,"Architect, software or solutions",16.0,174022.0,149199.0,140460.0,-33562.0
+USA,"Developer, full-stack",15.0,275000.0,117917.0,122940.0,-152060.0
+USA,"Developer, full-stack",6.0,135000.0,105140.0,104511.0,-30489.0
+GBR,"Developer, QA or test",10.0,88492.0,66438.0,80586.0,-7906.0
+AUT,"Developer, full-stack",2.0,49886.0,61879.0,46137.0,-3749.0
+USA,"Developer, mobile",5.0,92000.0,126076.0,96730.0,4730.0
+BGD,"Developer, back-end",1.0,1473.0,8502.0,4251.0,2778.0
+ITA,"Architect, software or solutions",43.0,78890.0,95743.0,39527.0,-39363.0
+USA,"Developer, full-stack",19.0,225000.0,148062.0,159404.0,-65596.0
+CHL,Engineering manager,6.0,38171.0,68151.0,54315.0,16144.0
+ESP,"Developer, embedded applications or devices",6.0,69609.0,45067.0,68936.0,-673.0
+USA,"Developer, front-end",9.0,77000.0,104563.0,148536.0,71536.0
+GBR,"Developer, mobile",15.0,190598.0,87821.0,97931.0,-92667.0
+DEU,Other (please specify):,12.0,110214.0,81411.0,109086.0,-1128.0
+PAK,"Developer, full-stack",2.0,2950.0,9538.0,9417.0,6467.0
+GBR,"Developer, full-stack",2.0,40842.0,64159.0,59115.0,18273.0
+ESP,"Developer, back-end",17.0,96292.0,106711.0,94408.0,-1884.0
+SGP,"Architect, software or solutions",16.0,109357.0,100548.0,154154.0,44797.0
+CHE,"Developer, full-stack",8.0,154991.0,179914.0,168840.0,13849.0
+FRA,"Developer, back-end",19.0,48726.0,72610.0,78177.0,29451.0
+HUN,"Architect, software or solutions",18.0,69400.0,46521.0,54718.0,-14682.0
+USA,DevOps engineer or professional,8.0,190000.0,147350.0,182752.0,-7248.0
+IRL,"Developer, embedded applications or devices",3.0,34804.0,36769.0,38440.0,3636.0
+JPN,"Developer, full-stack",8.0,31090.0,49119.0,65466.0,34376.0
+USA,Engineering manager,43.0,175000.0,297161.0,123515.0,-51485.0
+USA,"Developer, desktop or enterprise applications",39.0,128895.0,145353.0,138338.0,9443.0
+DEU,"Developer, back-end",14.0,174022.0,94086.0,87531.0,-86491.0
+FRA,Data scientist,8.0,69609.0,93467.0,78174.0,8565.0
+IND,"Developer, full-stack",3.0,1000000.0,11236.0,6951.0,-993049.0
+POL,"Developer, back-end",10.0,60038.0,58952.0,68480.0,8442.0
+AUS,"Architect, software or solutions",36.0,104015.0,166529.0,145254.0,41239.0
+IRL,"Developer, back-end",9.0,174022.0,62132.0,86903.0,-87119.0
+SWE,"Developer, full-stack",21.0,66666.0,63848.0,61810.0,-4856.0
+FRA,DevOps engineer or professional,3.0,37125.0,52247.0,30639.0,-6486.0
+USA,"Developer, full-stack",20.0,190000.0,177352.0,132319.0,-57681.0
+IND,"Developer, full-stack",10.0,15111.0,17568.0,19282.0,4171.0
+TUN,"Architect, software or solutions",5.0,31114.0,18288.0,20657.0,-10457.0
+AUS,"Developer, desktop or enterprise applications",30.0,195028.0,102230.0,98565.0,-96463.0
+FRA,"Developer, front-end",20.0,64968.0,72928.0,65273.0,305.0
+DEU,"Developer, full-stack",11.0,69609.0,72692.0,92198.0,22589.0
+GRC,"Developer, back-end",25.0,75410.0,78849.0,119169.0,43759.0
+ZAF,"Developer, front-end",12.0,39465.0,33070.0,47554.0,8089.0
+DEU,"Developer, back-end",15.0,134577.0,113089.0,123734.0,-10843.0
+NLD,"Developer, full-stack",17.0,113694.0,88431.0,88058.0,-25636.0
+GBR,"Senior executive (C-suite, VP, etc.)",40.0,238248.0,263347.0,169896.0,-68352.0
+TUR,"Developer, back-end",10.0,90892.0,37639.0,50025.0,-40867.0
+IND,"Developer, full-stack",5.0,20458.0,20854.0,19149.0,-1309.0
+GBR,DevOps engineer or professional,1.0,51734.0,93084.0,62694.0,10960.0
+USA,"Founder, technology or otherwise",22.0,120000.0,128686.0,138678.0,18678.0
+USA,"Developer, desktop or enterprise applications",25.0,140000.0,163523.0,162799.0,22799.0
+USA,"Developer, full-stack",20.0,190000.0,191316.0,193725.0,3725.0
+USA,"Developer, embedded applications or devices",35.0,170000.0,213991.0,189461.0,19461.0
+ZAF,"Developer, mobile",14.0,68218.0,33042.0,44561.0,-23657.0
+DEU,"Developer, full-stack",1.0,55687.0,64004.0,55170.0,-517.0
+GBR,"Developer, desktop or enterprise applications",15.0,78962.0,55132.0,61681.0,-17281.0
+FRA,"Developer, embedded applications or devices",18.0,67289.0,76067.0,78148.0,10859.0
+IND,"Developer, back-end",,3487.0,16322.0,14410.0,10923.0
+CAN,AI/ML engineer,3.0,87550.0,101930.0,77932.0,-9618.0
+UKR,"Architect, software or solutions",9.0,72000.0,25454.0,53097.0,-18903.0
+USA,"Developer, full-stack",4.0,125000.0,124227.0,95041.0,-29959.0
+USA,"Developer, back-end",45.0,140000.0,226069.0,135576.0,-4424.0
+TUR,"Developer, desktop or enterprise applications",4.0,53021.0,22268.0,28841.0,-24180.0
+TUR,"Developer, back-end",10.0,75410.0,30084.0,27737.0,-47673.0
+NOR,"Developer, full-stack",5.0,76097.0,37227.0,39175.0,-36922.0
+USA,"Developer, front-end",5.0,120000.0,105840.0,84575.0,-35425.0
+DEU,"Developer, full-stack",27.0,34804.0,138826.0,109422.0,74618.0
+USA,AI/ML engineer,5.0,110000.0,191375.0,178944.0,68944.0
+BRA,"Developer, back-end",14.0,63713.0,40904.0,25970.0,-37743.0
+USA,"Developer, back-end",3.0,100000.0,110943.0,111073.0,11073.0
+SWE,AI/ML engineer,10.0,46541.0,62984.0,98168.0,51627.0
+ROU,"Developer, front-end",28.0,43854.0,57032.0,66928.0,23074.0
+USA,"Developer, full-stack",10.0,112000.0,146955.0,158507.0,46507.0
+IND,"Developer, back-end",17.0,41846.0,30569.0,55748.0,13902.0
+USA,"Developer, full-stack",7.0,107000.0,117249.0,99633.0,-7367.0
+CHN,"Developer, full-stack",7.0,44571.0,27702.0,25746.0,-18825.0
+CAN,Data or business analyst,8.0,48882.0,72200.0,92732.0,43850.0
+ROU,"Developer, full-stack",14.0,97452.0,72297.0,65247.0,-32205.0
+DEU,"Developer, full-stack",10.0,47566.0,74298.0,85648.0,38082.0
+CZE,"Developer, front-end",18.0,93611.0,108988.0,93846.0,235.0
+DEU,"Developer, back-end",6.0,116015.0,108076.0,80269.0,-35746.0
+USA,Data scientist,16.0,260000.0,201642.0,183372.0,-76628.0
+ITA,"Developer, full-stack",25.0,46406.0,72415.0,62745.0,16339.0
+DEU,"Developer, embedded applications or devices",12.0,87011.0,83857.0,96956.0,9945.0
+COL,Data or business analyst,2.0,5383.0,26385.0,14026.0,8643.0
+DEU,"Developer, full-stack",30.0,69609.0,80127.0,69325.0,-284.0
+USA,"Developer, full-stack",13.0,75000.0,169817.0,190697.0,115697.0
+USA,"Developer, back-end",27.0,150000.0,212773.0,197662.0,47662.0
+DEU,"Developer, full-stack",3.0,36893.0,57056.0,48034.0,11141.0
+USA,"Developer, desktop or enterprise applications",34.0,150000.0,212498.0,134419.0,-15581.0
+DZA,"Developer, full-stack",6.0,23114.0,27234.0,11069.0,-12045.0
+GBR,"Developer, back-end",35.0,73262.0,118430.0,126706.0,53444.0
+DEU,"Developer, full-stack",3.0,46406.0,58248.0,51535.0,5129.0
+ZAF,"Architect, software or solutions",8.0,54124.0,39204.0,76497.0,22373.0
+FRA,Product manager,6.0,62648.0,58205.0,68073.0,5425.0
+USA,"Developer, mobile",30.0,220000.0,200841.0,167328.0,-52672.0
+USA,"Developer, back-end",10.0,179000.0,138056.0,178901.0,-99.0
+IND,"Founder, technology or otherwise",10.0,4650.0,13815.0,12385.0,7735.0
+NOR,Cloud infrastructure engineer,13.0,109367.0,103103.0,114879.0,5512.0
+USA,Data engineer,1.0,107000.0,83889.0,53520.0,-53480.0
+BRA,"Developer, full-stack",24.0,45873.0,30784.0,43888.0,-1985.0
+IND,AI/ML engineer,4.0,18598.0,25710.0,37333.0,18735.0
+ESP,"Developer, full-stack",12.0,49886.0,52644.0,75050.0,25164.0
+SVK,"Developer, full-stack",17.0,116015.0,78470.0,69748.0,-46267.0
+ITA,"Developer, front-end",4.0,37125.0,40584.0,39178.0,2053.0
+DEU,"Architect, software or solutions",30.0,92812.0,158692.0,90677.0,-2135.0
+NOR,Cloud infrastructure engineer,26.0,138358.0,89491.0,100444.0,-37914.0
+NOR,"Developer, mobile",19.0,74120.0,95124.0,77207.0,3087.0
+SWE,"Developer, back-end",2.0,47799.0,73188.0,68155.0,20356.0
+NLD,Data engineer,28.0,174022.0,78600.0,82143.0,-91879.0
+USA,"Developer, back-end",3.0,112000.0,122006.0,92883.0,-19117.0
+CZE,"Architect, software or solutions",10.0,24339.0,58137.0,67823.0,43484.0
+GRC,"Developer, front-end",26.0,69609.0,82185.0,87615.0,18006.0
+BRA,"Developer, full-stack",9.0,74271.0,34968.0,40368.0,-33903.0
+USA,"Developer, embedded applications or devices",13.0,120000.0,141199.0,163654.0,43654.0
+DNK,"Developer, full-stack",38.0,146189.0,101941.0,99860.0,-46329.0
+DEU,DevOps engineer or professional,11.0,68291.0,68920.0,92107.0,23816.0
+USA,"Architect, software or solutions",39.0,159000.0,283336.0,183814.0,24814.0
+NLD,DevOps engineer or professional,7.0,73089.0,68049.0,69442.0,-3647.0
+USA,"Developer, embedded applications or devices",6.0,88000.0,86547.0,110929.0,22929.0
+PAK,"Developer, mobile",3.0,4916.0,9937.0,5713.0,797.0
+USA,"Developer, embedded applications or devices",15.0,185000.0,111865.0,142182.0,-42818.0
+USA,"Developer, full-stack",5.0,5000.0,123933.0,83154.0,78154.0
+CHN,"Developer, desktop or enterprise applications",3.0,300000.0,18851.0,11954.0,-288046.0
+GBR,"Developer, front-end",,43565.0,66397.0,50488.0,6923.0
+MYS,"Developer, desktop or enterprise applications",13.0,40056.0,35693.0,23656.0,-16400.0
+BRA,Other (please specify):,9.0,32767.0,28956.0,36060.0,3293.0
+CZE,"Developer, full-stack",25.0,35104.0,84703.0,95813.0,60709.0
+USA,"Developer, full-stack",1.0,88000.0,88471.0,69684.0,-18316.0
+ZAF,"Developer, full-stack",5.0,50000.0,28464.0,23031.0,-26969.0
+USA,"Developer, back-end",41.0,245000.0,327392.0,256304.0,11304.0
+BEL,"Founder, technology or otherwise",20.0,126340.0,102046.0,117140.0,-9200.0
+SWE,"Architect, software or solutions",25.0,68134.0,70422.0,75422.0,7288.0
+GBR,"Senior executive (C-suite, VP, etc.)",7.0,54457.0,94614.0,96114.0,41657.0
+USA,Engineering manager,14.0,140000.0,179765.0,202644.0,62644.0
+USA,"Developer, full-stack",12.0,120000.0,125772.0,130486.0,10486.0
+AUS,Data engineer,37.0,97514.0,172789.0,117079.0,19565.0
+FRA,"Founder, technology or otherwise",6.0,11601.0,66733.0,62844.0,51243.0
+SWE,Data scientist,5.0,73375.0,69439.0,81708.0,8333.0
+DEU,"Developer, desktop or enterprise applications",14.0,116015.0,104980.0,123809.0,7794.0
+BEL,"Developer, full-stack",14.0,90491.0,53891.0,60836.0,-29655.0
+FIN,"Architect, software or solutions",20.0,1740220.0,127365.0,143970.0,-1596250.0
+TUN,"Developer, back-end",4.0,1358.0,12284.0,26314.0,24956.0
+SWE,"Developer, full-stack",18.0,83857.0,100013.0,83006.0,-851.0
+DNK,AI/ML engineer,15.0,155521.0,151514.0,151823.0,-3698.0
+USA,"Developer, full-stack",25.0,162000.0,145283.0,140946.0,-21054.0
+ITA,"Architect, software or solutions",20.0,67289.0,60441.0,55308.0,-11981.0
+CHN,"Developer, front-end",18.0,16714.0,30011.0,84535.0,67821.0
+ESP,Applied scientist,2.0,23203.0,44463.0,38634.0,15431.0
+BRA,"Architect, software or solutions",13.0,28216.0,38345.0,55058.0,26842.0
+NLD,"Developer, full-stack",4.0,54527.0,44926.0,40498.0,-14029.0
+USA,"Developer, QA or test",18.0,200000.0,168462.0,187954.0,-12046.0
+CHE,DevOps engineer or professional,3.0,130193.0,98261.0,55567.0,-74626.0
+SVK,"Architect, software or solutions",18.0,232029.0,111546.0,125862.0,-106167.0
+AUT,"Developer, front-end",15.0,69609.0,91977.0,94226.0,24617.0
+DNK,"Developer, full-stack",30.0,217729.0,188374.0,150176.0,-67553.0
+POL,"Developer, back-end",15.0,6550.0,76865.0,100411.0,93861.0
+USA,"Developer, back-end",7.0,178000.0,145058.0,126292.0,-51708.0
+USA,"Developer, full-stack",10.0,110000.0,167297.0,194921.0,84921.0
+MEX,"Developer, full-stack",15.0,18950.0,27791.0,42012.0,23062.0
+GBR,AI/ML engineer,12.0,272283.0,111721.0,140318.0,-131965.0
+USA,"Developer, mobile",9.0,110000.0,119039.0,140129.0,30129.0
+SWE,"Architect, software or solutions",15.0,73375.0,94553.0,98365.0,24990.0
+GBR,Other (please specify):,1.0,51407.0,102787.0,69650.0,18243.0
+AUS,"Developer, full-stack",28.0,130019.0,145796.0,118640.0,-11379.0
+USA,"Developer, back-end",12.0,121000.0,165231.0,203256.0,82256.0
+CAN,"Developer, front-end",22.0,91198.0,121529.0,97814.0,6616.0
+FRA,"Senior executive (C-suite, VP, etc.)",7.0,116015.0,78605.0,96999.0,-19016.0
+USA,"Developer, full-stack",13.0,130000.0,127020.0,139967.0,9967.0
+ESP,"Developer, back-end",8.0,45246.0,72704.0,80354.0,35108.0
+FRA,"Developer, full-stack",24.0,131445.0,65396.0,72915.0,-58530.0
+CAN,"Developer, full-stack",9.0,145166.0,99455.0,106110.0,-39056.0
+DEU,"Developer, back-end",7.0,34804.0,101427.0,91687.0,56883.0
+USA,Data engineer,6.0,180000.0,144414.0,141409.0,-38591.0
+MEX,"Developer, back-end",11.0,2106.0,33018.0,49884.0,47778.0
+CHE,"Architect, software or solutions",25.0,210788.0,289479.0,192866.0,-17922.0
+DEU,"Developer, desktop or enterprise applications",35.0,150819.0,139560.0,97330.0,-53489.0
+GBR,"Developer, mobile",39.0,84408.0,116660.0,113420.0,29012.0
+GBR,"Developer, full-stack",10.0,97886.0,79747.0,96735.0,-1151.0
+GBR,"Developer, back-end",10.0,72155.0,102720.0,109379.0,37224.0
+SWE,"Developer, game or graphics",16.0,78616.0,67084.0,82424.0,3808.0
+LTU,"Developer, back-end",15.0,87011.0,61472.0,72672.0,-14339.0
+VNM,"Developer, full-stack",2.0,8407.0,22825.0,15349.0,6942.0
+DEU,"Developer, full-stack",18.0,75410.0,82675.0,90233.0,14823.0
+DEU,"Developer, full-stack",17.0,104413.0,88745.0,96473.0,-7940.0
+USA,"Developer, front-end",14.0,275000.0,160084.0,170046.0,-104954.0
+USA,"Developer, full-stack",13.0,150000.0,137654.0,141720.0,-8280.0
+CAN,"Developer, full-stack",18.0,86820.0,76143.0,70157.0,-16663.0
+TUR,"Developer, full-stack",7.0,30297.0,19693.0,26838.0,-3459.0
+ARG,"Developer, AI apps or physical AI",10.0,99935.0,28419.0,46122.0,-53813.0
+PRT,"Developer, desktop or enterprise applications",15.0,93972.0,44688.0,59923.0,-34049.0
+DEU,"Developer, full-stack",17.0,98612.0,92121.0,90951.0,-7661.0
+USA,"Developer, mobile",14.0,130000.0,126330.0,147836.0,17836.0
+GRC,Engineering manager,10.0,89331.0,88233.0,99197.0,9866.0
+DEU,"Developer, full-stack",8.0,63808.0,41486.0,61305.0,-2503.0
+DEU,Other (please specify):,8.0,104413.0,95050.0,88427.0,-15986.0
+IND,"Developer, full-stack",3.0,20342.0,14642.0,11332.0,-9010.0
+USA,"Developer, full-stack",8.0,165000.0,111572.0,159536.0,-5464.0
+IND,"Developer, AI apps or physical AI",4.0,8137.0,13710.0,18455.0,10318.0
+USA,"Architect, software or solutions",33.0,180000.0,294029.0,199115.0,19115.0
+PRT,"Developer, embedded applications or devices",23.0,34804.0,40300.0,51173.0,16369.0
+DEU,Academic researcher,6.0,64040.0,47210.0,57309.0,-6731.0
+DEU,AI/ML engineer,6.0,85851.0,105991.0,111019.0,25168.0
+BRA,Data engineer,7.0,36407.0,41962.0,28482.0,-7925.0
+USA,"Developer, back-end",14.0,200000.0,132617.0,142813.0,-57187.0
+IND,AI/ML engineer,20.0,1162.0,24453.0,31484.0,30322.0
+USA,Applied scientist,13.0,160000.0,140562.0,136640.0,-23360.0
+CAN,"Developer, front-end",10.0,87550.0,91735.0,101075.0,13525.0
+USA,"Developer, full-stack",20.0,215000.0,152180.0,141557.0,-73443.0
+EGY,"Developer, mobile",6.0,12223.0,10054.0,6813.0,-5410.0
+NLD,"Developer, back-end",10.0,69609.0,72363.0,78873.0,9264.0
+PRT,"Developer, full-stack",29.0,290037.0,52787.0,58467.0,-231570.0
+USA,"Developer, mobile",31.0,152000.0,199578.0,172486.0,20486.0
+USA,"Developer, back-end",17.0,166200.0,182283.0,185712.0,19512.0
+GBR,Data or business analyst,20.0,65348.0,99479.0,104025.0,38677.0
+ESP,"Architect, software or solutions",28.0,60328.0,78026.0,72305.0,11977.0
+ESP,"Developer, mobile",13.0,127616.0,63675.0,85316.0,-42300.0
+NLD,"Developer, full-stack",15.0,69764.0,62383.0,78942.0,9178.0
+DEU,"Developer, full-stack",10.0,34804.0,64302.0,75323.0,40519.0
+FIN,"Developer, full-stack",6.0,60328.0,59419.0,61412.0,1084.0
+USA,"Developer, full-stack",20.0,130000.0,143831.0,170608.0,40608.0
+TUR,"Architect, software or solutions",17.0,88368.0,29359.0,52314.0,-36054.0
+USA,"Developer, embedded applications or devices",6.0,60000.0,87627.0,112475.0,52475.0
+USA,"Developer, front-end",22.0,116000.0,188103.0,143198.0,27198.0
+DEU,"Developer, full-stack",10.0,67289.0,100346.0,101097.0,33808.0
+CZE,"Developer, full-stack",11.0,79570.0,82308.0,103893.0,24323.0
+USA,Data engineer,2.0,117000.0,162296.0,97807.0,-19193.0
+ITA,Product manager,23.0,116015.0,57755.0,60018.0,-55997.0
+USA,"Developer, back-end",7.0,300000.0,165759.0,165614.0,-134386.0
+USA,"Developer, mobile",8.0,250000.0,135915.0,145614.0,-104386.0
+DEU,"Developer, full-stack",21.0,64968.0,100461.0,78914.0,13946.0
+DNK,"Developer, back-end",3.0,83981.0,73368.0,50889.0,-33092.0
+DNK,Applied scientist,4.0,110109.0,85558.0,67290.0,-42819.0
+ROU,"Architect, software or solutions",13.0,116015.0,82105.0,91855.0,-24160.0
+CZE,"Developer, full-stack",13.0,32764.0,57983.0,79537.0,46773.0
+FIN,"Developer, embedded applications or devices",15.0,87591.0,61615.0,80265.0,-7326.0
+NOR,"Developer, full-stack",16.0,113651.0,89005.0,85783.0,-27868.0
+UKR,AI/ML engineer,5.0,71899.0,28788.0,60704.0,-11195.0
+USA,"Developer, embedded applications or devices",15.0,180000.0,157952.0,177365.0,-2635.0
+AUS,Cloud infrastructure engineer,4.0,115717.0,66207.0,39265.0,-76452.0
+ESP,"Developer, game or graphics",14.0,62648.0,71938.0,88139.0,25491.0
+USA,"Developer, front-end",3.0,100000.0,103210.0,83262.0,-16738.0
+USA,Cloud infrastructure engineer,12.0,170000.0,170868.0,272709.0,102709.0
+USA,"Developer, back-end",28.0,185000.0,188705.0,121816.0,-63184.0
+GBR,"Developer, full-stack",2.0,272283.0,74480.0,67480.0,-204803.0
+USA,Data engineer,8.0,135000.0,180919.0,186574.0,51574.0
+SWE,"Developer, full-stack",6.0,41929.0,41669.0,59992.0,18063.0
+CHE,"Developer, desktop or enterprise applications",30.0,161191.0,183652.0,157964.0,-3227.0
+ARG,"Developer, back-end",6.0,13649.0,22484.0,14710.0,1061.0
+USA,"Developer, full-stack",15.0,120000.0,119519.0,153471.0,33471.0
+POL,"Developer, full-stack",15.0,62221.0,67465.0,77878.0,15657.0
+NZL,"Developer, front-end",2.0,42165.0,47169.0,35670.0,-6495.0
+DEU,"Developer, full-stack",13.0,70305.0,79521.0,88170.0,17865.0
+CHN,"Developer, desktop or enterprise applications",19.0,41786.0,22362.0,38286.0,-3500.0
+IND,"Developer, full-stack",10.0,92992.0,19746.0,19166.0,-73826.0
+RUS,DevOps engineer or professional,7.0,55503.0,73454.0,116967.0,61464.0
+COL,"Developer, back-end",13.0,140000.0,34878.0,51721.0,-88279.0
+NZL,"Developer, full-stack",28.0,108424.0,70027.0,77087.0,-31337.0
+GBR,"Developer, back-end",10.0,132057.0,92950.0,106279.0,-25778.0
+AUS,"Developer, game or graphics",4.0,74761.0,66678.0,59626.0,-15135.0
+SVN,"Developer, full-stack",13.0,278435.0,65954.0,92995.0,-185440.0
+UKR,"Developer, front-end",3.0,14322.0,21995.0,8365.0,-5957.0
+GBR,"Developer, front-end",15.0,68071.0,74082.0,73578.0,5507.0
+DEU,"Developer, full-stack",15.0,16242.0,67016.0,83201.0,66959.0
+BEL,"Developer, back-end",10.0,81210.0,92444.0,91327.0,10117.0
+USA,"Developer, front-end",30.0,104000.0,118276.0,124876.0,20876.0
+ARE,"Developer, mobile",12.0,130703.0,57242.0,78580.0,-52123.0
+CHE,"Developer, full-stack",15.0,142592.0,190970.0,179827.0,37235.0
+AUT,"Developer, back-end",9.0,58007.0,60644.0,69415.0,11408.0
+RUS,"Architect, software or solutions",36.0,150819.0,139053.0,106095.0,-44724.0
+CZE,"Developer, full-stack",8.0,28083.0,50519.0,61223.0,33140.0
+ITA,"Developer, full-stack",3.0,31324.0,33354.0,40995.0,9671.0
+DEU,"Developer, embedded applications or devices",24.0,111374.0,144895.0,139329.0,27955.0
+PRY,"Developer, full-stack",15.0,96000.0,32527.0,41406.0,-54594.0
